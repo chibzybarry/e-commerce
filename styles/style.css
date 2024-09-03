@@ -1,8 +1,7 @@
 .container{
     /* background-color: #F9DCD1 !important; */
-    padding: 50px;
-    border-radius: 10px;
-    margin: 50px;
+    /* border-radius: 10px; */
+    
 }
 .header1{
     background-color:#F9DCD1 !important;
@@ -11,7 +10,8 @@
 }
 
 .movedown{
-    padding-top: 150px !important;
+   margin-top: 100px;
+    padding-left: 50px;
 }
 .bigbox{
     background-color: rgb(68, 68, 235);
@@ -36,11 +36,13 @@
 .pfeature{
     background-color: blue;
     color: white;
+   
+ 
 }
 
 .magic2{
     background-color: rgb(247, 161, 175);
-    height: 560px;
+    height: 600px;
 }
 .header2{
     color: rgba(229, 12, 12, 0.895);
@@ -49,6 +51,32 @@
     /* border: 2px solid black;
     margin-bottom: 300px; */
   
+}
+.bigg{
+   border: 2px solid black;
+}
+
+.donzo{
+    justify-content: space-between;
+    margin-top: 100px !important;
+    border: 2px solid black;
+}
+.iphone15{
+    margin-top: 15px;
+    margin-left: 120px;
+}
+.text-1{
+    font-size: 12px !important;
+    color: rgb(82, 82,82);
+    font-weight: 700 !important;
+}
+
+.text-2{
+    font-size: 17px !important;
+    color: rgb(82, 82,82);
+    font-weight: 700 !important;
+        
+
 }
 
 

@@ -24,7 +24,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent ">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-5">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -56,7 +56,8 @@
                 </div>
             </div>
         </nav>
-        <div class="container magic">
+        <!-- hero section  -->
+        <div class="container-fluid magic ">
             <div class="row">
 
                 <div class="col-12 col-sm-6 movedown">
@@ -71,7 +72,7 @@
                 </div>
 
                 <div class="col-12 col-sm-6">
-                    <img src="./images/black_headset-removebg-preview.png" alt="">
+                    <img src="./images/black_headset-removebg-preview.png" class="img-fluid" alt="">
 
                 </div>
 
@@ -84,53 +85,48 @@
 
         <!-- category section  -->
 
-        <div class="container d-flex">
-            <h1>Browse by category</h1>
-            <button><a href=""><i class="fa-solid fa-arrow-left"></i></a><button>
-                    <button><a href=""><i class="fa-solid fa-arrow-right"></i></a></button>
+        <div class="container">
+            <div class="row">
+                <h1 class="col-12 col-sm-6">Browse by category</h1>
 
-                    <div class="d-flex feat">
+                <div class="col-12 col-sm-6 d-flex justify-content-end gap-3">
+                    <button type="button" class="btn btn-light"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
 
-
-
-                        <!-- <button>
-                                        <a href=""><i class="fa-solid fa-arrow-left"></i></a>   <button>
-                                            <a href=""><i class="fa-solid fa-arrow-right"></i></a></button>
-
-                                    </button>
-                                    -->
-                    </div>
         </div>
 
         <!-- browse by category section  -->
         <section>
 
-            <div class="row justify-contect-start things container">
-                <div class=" box card mt-4 col-12 col-sm-3" style="width: 12rem; height: 12rem;margin: 5px;">
+            <div class="row justify-content-between container mx-auto">
+
+                <div class=" box card mt-4 col-12 col-sm-3 me-4" style="width: 12rem; height: 12rem;">
                     <i class="fa-solid fa-laptop cat-icon-center lappy"></i>
                     <p class="text-center">Laptop</p>
 
                 </div>
-                <div class=" box card mt-4 col-12 col-sm-3" style="width: 12rem; height: 12rem;margin: 5px;">
+                <div class=" box card mt-4 col-12 col-sm-3 me-4" style="width: 12rem; height: 12rem;">
                     <i class="fa-solid fa-clock lappy"></i>
                     <p class="text-center">mywatch</p>
 
                 </div>
-                <div class=" box card mt-4 col-12 col-sm-3" style="width: 12rem; height: 12rem;margin: 5px;">
+                <div class=" box card mt-4 col-12 col-sm-3 me-4" style="width: 12rem; height: 12rem;">
                     <i class="fa-solid fa-mobile lappy"></i>
                     <p class="text-center">Phone</p>
 
                 </div>
-                <div class=" box card mt-4 col-12 col-sm-3" style="width: 12rem; height: 12rem;margin: 5px;">
+                <div class=" box card mt-4 col-12 col-sm-3 me-4" style="width: 12rem; height: 12rem;">
                     <i class="fa-solid fa-camera lappy"></i>
                     <p class="text-center">Camera</p>
 
                 </div>
-                <div class=" box card mt-4 col-12 col-sm-3" style="width: 12rem; height: 12rem;margin: 5px;">
+                <div class=" box card mt-4 col-12 col-sm-3 me-4" style="width: 12rem; height: 12rem;">
                     <i class="fa-solid fa-headphones lappy"></i>
                     <p class="text-center">Headphone</p>
                 </div>
-                <div class=" box card mt-4 col-12 col-sm-3" style="width: 12rem; height: 12rem;margin: 5px;">
+                <div class=" box card mt-4 col-12 col-sm-3" style="width: 12rem; height: 12rem;">
                     <i class="fa-solid fa-gamepad lappy"></i>
                     <p class="text-center">Video Game</p>
                 </div>
@@ -139,7 +135,7 @@
 
             </div>
         </section>
-    
+
 
         <div class="feat d-flex container">
             <h1>Featured Products</h1>
@@ -151,7 +147,7 @@
 
         <section>
             <div class="mt-3">
-                <div class="row justify-content-center container">
+                <div class="row justify-content-center container mx-auto">
                     <!-- Replicate this column for each product card -->
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                         <div class="card product-card">
@@ -407,13 +403,130 @@
         </section>
 
 
-        <!-- new arrivals section  -->
 
-        
-        <div class="feat d-flex container">
-            <h1>New Arrivals</h1>
-            <button class="pfeature">View All Products <i class="fa-solid fa-arrow-right"></i></button>
-        </div>
+
+
+        <section class="container">
+            <div>
+                <div class="row py-5">
+                    <div class="col-12 col-sm-6 px-5">
+                        <h1>New Arrivals</h1>
+                    </div>
+                    <div class="col-12 col-sm-6 d-flex justify-content-end px-5 py-3">
+                        <button class="btn btn-primary px-2" type="submit">view all products<span><i
+                                    class="fa-solid fa-arrow-right mx-2 pt-2"></i></span></button>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col-12 col-sm-6 sectionimg rounded" style="height: 490px;">
+                        <div style="width: 350px;" class="pt-4 ms-3">
+                            <h1 class="samsung">Samsung Galaxy Note20 Ultra 5G</h1>
+                        </div>
+                        <button class="btn btn-primary my-3 ms-3 px-3 " type="submit">shop now <span><i
+                                    class="fa-solid fa-arrow-right"></i></span></button>
+                        <img src="" alt="" class="phone15 ">
+                    </div> 
+                    <div class="col-12 col-sm-6">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0" style="height: 150px;">
+                                <div class="col-md-4 ">
+                                    <img src="./images/headphone.png" class="img-fluid rounded-start sectionimg"
+                                        style="height: 150px;" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h1 class="text-1 pt-4">Logitech G320 Gaming Headphone</h1>
+                                        <span class="pt-2">
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                        </span>
+                                        <h1 class="text-1 pt-2">$399.00</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 " style="max-width: 540px;">
+                            <div class="row g-0" style="height: 150px;">
+                                <div class="col-md-4 ">
+                                    <img src="./images/watchfile.png" class="img-fluid rounded-start sectionimg"
+                                        style="height: 150px;" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h1 class="text-1 pt-4">olevs fashion waterproof watch for men</h1>
+                                        <span class="pt-2">
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                        </span>
+                                        <h1 class="text-1 pt-2">$379.00</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0" style="height: 150px;">
+                                <div class="col-md-4 ">
+                                    <img src="./images/h200.png" class="img-fluid rounded-start sectionimg"
+                                        style="height: 150px; width: 150px;" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h1 class="text-1 pt-4">Asus TUF Gaming H70 light Gaming Headphone</h1>
+                                        <span class="pt-2">
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                            <i class="fa-solid fa-star text-warning fs-6"></i>
+                                        </span>
+                                        <h1 class="text-1 pt-2">$549.00</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    
+
+                    </div>
+                 <div class="card mb-3" style="max-width: 540px;">
+                 <div class="row g-0" style="height: 150px;">
+                    <div class="col-md-4 ">
+                        <img src="./images/h200.png" class="img-fluid rounded-start sectionimg"
+                            style="height: 150px; width: 150px;" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h1 class="text-1 pt-4">Asus TUF Gaming H70 light Gaming Headphone</h1>
+                            <span class="pt-2">
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                            </span>
+                            <h1 class="text-1 pt-2">$549.00</h1>
+                        </div>
+                    </div>
+                 
+                    
+
+
+                </div>
+            </div>
+        </section>
+
 
 
 
@@ -470,21 +583,36 @@
 
         <!-- the freeshipping section  -->
 
-
-        <section>
-            <div>
-
+        <div class="container row donzo mx-auto">
+            <div class="card" style="width: 18rem;">
+                <i class="fa-solid fa-truck bigg img-fluid"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
 
-        </section>
-
-        <!-- New Arrivals section  -->
-
-
-
-
-
-
+        </div>
 
 
 
@@ -492,11 +620,122 @@
 
     </main>
 
+    <footer>
+
+        <!-- contact section in footer -->
+
+
+        <section>
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-12 col-sm-3">
+                        <div class="my-4 pb-3 mb-5 ms-3">
+                            <img src="./images/electro_j-removebg-preview__1_-removebg-preview.png" class="img-fluid"
+                                alt="my logo image" style="width: 90px;">
+                        </div>
+
+                        <span class="pb-3 ms-3">
+                            <i class="fa-brands fa-facebook-f text-primary p-2 icons rounded"></i>
+                            <i class="fa-brands fa-x-twitter text-primary p-2 icons rounded"></i>
+                            <i class="fa-brands fa-instagram text-primary p-2 icons rounded"></i>
+                            <i class="fa-brands fa-pinterest-p text-primary p-2 icons rounded"></i>
+                        </span>
+                        <p class="text-1 pt-2 ms-3">&copy 2024 electro. All rights reserved.</p>
+                    </div>
+
+                    <div class="col-12 col-sm-3 ">
+                        <ul class="list-group ms-5" style="width: 200px;">
+                            <li class="list-group-item border-0 ">
+                                <h5 class="text-2">Get to know us</h5>
+                                <hr class="m-0 p-0 ms-2" style="width: 50px;">
+                            </li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">About us</li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">News & blog</li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">Careers</li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">Contact us</li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">How to shop</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-sm-3">
+                        <ul class="list-group ms-5" style="width: 200px;">
+                            <li class="list-group-item border-0 ">
+                                <h5 class="text-2">Orders & Returns</h5>
+                                <hr class="m-0 p-0 ms-2" style="width: 40px;">
+                            </li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">shipping & delivery</li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">Return & exchange</li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">Track order</li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">selling tips</li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">Payment</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-sm-3">
+                        <ul class="list-group  ms-5" style="width: 200px;">
+                            <li class="list-group-item border-0 ">
+                                <h5 class="text-2">Contacts</h5>
+                                <hr class="m-0 p-0 ms-2" style="width: 30px;">
+                            </li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">
+                                <i class="fa-solid fa-phone text-primary"></i> 09071021320
+                            </li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">
+                                <i class="fa-solid fa-envelope text-primary fs-6 pe-1"></i>osunwachibueze
+                            </li>
+                            <li class="list-group-item border-0 ms-1 py-1 text-1">
+                                <i class="fa-solid fa-location-dot fs-6 pe-2 text-primary"></i>alagomeji-yaba
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-3 my-4">
+            <div class=" d-flex">
+
+                <!-- logo divs -->
+                <div class="footerlogo d-xl-flex container-fluid mx-auto">
+                    <!-- MASTERCARD LOGO -->
+                    <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13674554/Mastercard_logo.jpg?quality=90&strip=all&crop=0,16.666666666667,100,66.666666666667"
+                        alt="" width="70px" height="30px" class="px-2">
+
+                    <!-- PAYPAL LOGO -->
+                    <img src="https://logos-world.net/wp-content/uploads/2020/07/PayPal-Logo.png" alt="" width="70px"
+                        height="30px" class="px-2">
+
+                    <!-- VISA LOGO -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9q0sqA5NdwQUjBroTrgKxBchTW7cB40KjUQ&s"
+                        alt="" width="70px" height="30px" class="px-2">
+
+                    <!-- APPLE PAY LOGO -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWxYUQvdwKXZ9meVu4Jx6fr7nNNo99TLl-bA&s"
+                        alt="" width="70px" height="30px" class="px-2">
+
+                    <!-- GOOGLE PAY -->
+                    <img src="https://download.logo.wine/logo/Google_Pay/Google_Pay-Logo.wine.png" alt="" width="70px"
+                        height="30px" class="px-2">
+                </div>
+
+
+
+                <div class="d-flex text-nowrap leftfootertext">
+                    <p class="px-5">Privacy Policy</p>
+                    <p class="px-5">Terms of use</p>
+                    <p class="px-5">Shipping Policy</p>
+                </div>
+
+
+            </div>
+        </footer>
 
 
 
 
-    <footer></footer>
+
+
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
