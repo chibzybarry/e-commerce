@@ -21,7 +21,18 @@
 }
 .magic{
     background-color: #F9DCD1 !important;
+    /* border: 2px solid black; */
+    margin-bottom: 20px;
+ 
+ 
 }
+
+
+.deskk{
+    margin-top: 20px;
+    
+}
+ 
 .lappy{
     font-size: 100px;
     padding-top: 17px;
@@ -75,10 +86,7 @@
     font-size: 17px !important;
     color: rgb(82, 82,82);
     font-weight: 700 !important;
-        
-
 }
-
 
 
 
